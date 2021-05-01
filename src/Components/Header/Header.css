@@ -1,0 +1,69 @@
+.bg {
+  /* height:1100px;
+  background-image: linear-gradient(90deg, #766dff 0%, #88f3ff 100%); */
+  /* position: relative;
+  z-index: -1; */
+  /* background-image: linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  margin-bottom: 200px; */
+}
+
+@media (min-width: 576px) {
+  .bg {
+    height:1000px;
+    background-image: linear-gradient(90deg, #766dff 0%, #88f3ff 100%);
+    /* position: relative;
+    z-index: -1; */
+    /* background-image: linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    margin-bottom: 200px; */
+  }
+
+}
+
+
+@media (min-width: 767px) {
+  .bg {
+    height:1000px;
+    background-image: linear-gradient(90deg, #766dff 0%, #88f3ff 100%);
+    /* position: relative;
+    z-index: -1; */
+    /* background-image: linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    margin-bottom: 200px; */
+  }
+
+}
+
+@media (min-width: 768px) {
+  .bg {
+    height: 450px;
+    background-image: linear-gradient(90deg, #766dff 0%, #88f3ff 100%);
+    /* position: relative;
+    z-index: -1; */
+    /* background-image: linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    margin-bottom: 200px; */
+  }
+
+}
+
+@media (min-width: 992px) {
+  .bg {
+    height: 600px;
+    background-image: linear-gradient(90deg, #766dff 0%, #88f3ff 100%);
+    /* position: relative;
+    z-index: -1; */
+    /* background-image: linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    margin-bottom: 200px; */
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .bg {
+    height: 700px;
+    background-image: linear-gradient(90deg, #766dff 0%, #88f3ff 100%);
+    /* position: relative;
+    z-index: -1; */
+    /* background-image: linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    margin-bottom: 200px; */
+  }
+
+}

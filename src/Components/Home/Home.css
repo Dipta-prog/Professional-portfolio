@@ -1,0 +1,35 @@
+@media (min-width: 576px) {
+    .header-bottom-components {
+        margin-top: 140px;
+        position: absolute;
+        z-index: 100;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-bottom-components {
+        margin-top: 160px;
+        position: absolute;
+        z-index: 100;
+    }
+}
+
+@media (min-width: 992px) {
+    .header-bottom-components {
+        margin-top: 220px;
+        position: absolute;
+        z-index: 100;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header-bottom-components {
+        margin-top: 260px;
+        position: absolute;
+        z-index: 100;
+    }
+}
+
+.togglarActiveMarginClass {
+    margin-top: 320px;
+}
