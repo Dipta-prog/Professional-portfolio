@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+.about-short-col {
+    padding: 0 30px 20px 30px;
+    margin: auto;
+    width: 100%;
+}
+
+/* .col-md-6{
+    border: 3px solid green; 
+} */
+
+.about-short-img {
+    height: 450px;
+    width: auto;
+    /* margin: 20px 1px 20px 15px; */
+}
+
+#about-me-title {
+    text-align: center;
+    padding-bottom: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}
+
+.text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.typing-2 {
+    background: -webkit-linear-gradient(225deg, #766dff, #88f3ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+
+/* #about-me-title::before{
+    content: "";
+    position: absolute;
+    bottom: 380px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+#about-me-title::after{
+    position: absolute;
+    content: "who i am";
+    bottom: 372px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 0 5px;
+    background: #fff;
+    transform: translateX(-50%);
+} */
+
+
+@media (max-width: 768px) {
+    .about-short-img-div {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .about-short-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .about-short-img {
+        height: 650px;
+        width: auto;
+        /* margin: 20px 1px 20px 15px; */
+    }
+
+}
+
+@media (max-width: 992px) {
+    .about-short-img {
+        height: 450px;
+        width: auto;
+        /* margin: 20px 1px 20px 15px; */
+    }
+
+}
+
+@media (max-width: 320px) {
+    .about-short-img {
+        width: 100%;
+        padding-right: 5px;
+        /* margin: 20px 1px 20px 15px; */
+    }
+
+}

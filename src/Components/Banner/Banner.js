@@ -3,7 +3,7 @@ import './Banner.css';
 import {
     Link
 } from "react-router-dom";
-import Typical from 'react-typical'
+import Typical from 'react-typical';
 
 
 const Banner = () => {
@@ -13,7 +13,7 @@ const Banner = () => {
     return (
         <div className="div-height d-flex align-items-center">
             <div className="container">
-                <div className="margin-test">
+                <div>
                     <div className="card">
                         <div className="row container-fluid">
                             <div className="col-md-6">

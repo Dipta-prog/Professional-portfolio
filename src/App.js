@@ -26,9 +26,11 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home></Home>
+          {/* <AboutMe></AboutMe> */}
         </Route>
         <Route path="/home">
           <Home></Home>
+          {/* <AboutMe></AboutMe> */}
         </Route>
         <Route path="*">
           {/* <NoMatch /> */}
