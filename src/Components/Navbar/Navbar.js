@@ -26,13 +26,13 @@ const Navbar = () => {
                             <Link style={{ fontWeight: '600' }} className="nav-link nav-link-color" to='/home'>Home <span className="sr-only">(current)</span></Link>
                         </li>
                         <li className="nav-item active mx-3">
-                            <Link style={{ fontWeight: '600' }} className="nav-link nav-link-color" to='/dashboard'>Dashboard</Link>
+                            <Link style={{ fontWeight: '600' }} className="nav-link nav-link-color" to='/dashboard'>Resume</Link>
                         </li>
                         <li className="nav-item active mx-3">
-                            <Link style={{ fontWeight: '600' }} className="nav-link nav-link-color" to='/orders'>Orders</Link>
+                            <Link style={{ fontWeight: '600' }} className="nav-link nav-link-color" to='/orders'>Projects</Link>
                         </li>
                         <li className="nav-item active mx-3">
-                            <Link style={{ fontWeight: '600' }} className="nav-link nav-link-color" to='/services' >Services</Link>
+                            <Link style={{ fontWeight: '600' }} className="nav-link nav-link-color" to='/services' >Contact</Link>
                         </li>
                     </ul>
                 </div>
