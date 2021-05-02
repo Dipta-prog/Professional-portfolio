@@ -9,7 +9,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Header from './Components/Header/Header';
 import Projects from './Components/Projects/Projects';
 import AboutMe from './Components/AboutMe/AboutMe';
-import Skills from './Components/Skills/Skills';
+import Skills from './Components/Blog/Blog';
 import Banner from './Components/Banner/Banner';
 import Home from './Components/Home/Home';
 

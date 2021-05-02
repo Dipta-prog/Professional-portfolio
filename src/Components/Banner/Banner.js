@@ -37,7 +37,8 @@ const Banner = () => {
                                         ></Typical>
                                     </span></div>
                                     {/* <a href="#">Hire me</a> */}
-                                    <Link onClick={handleClick} className="btn btn-success">HIRE ME</Link>
+                                    <a target="_blank" href="https://drive.google.com/file/d/1yraIk8j8VFBJ4ftIjWIwLdQAlAMkJSId/view?usp=sharing" className="btn btn-success">DOWNLOAD RESUME</a>
+                                    {/* <Link onClick={handleClick} className="btn btn-success">HIRE ME</Link> */}
                                 </div>
                             </div>
                         </div>

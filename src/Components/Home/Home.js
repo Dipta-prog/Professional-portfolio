@@ -3,7 +3,8 @@ import './Home.css'
 import AboutMe from '../AboutMe/AboutMe';
 import Header from '../Header/Header';
 import Projects from '../Projects/Projects';
-import Skills from '../Skills/Skills';
+import Blog from '../Blog/Blog';
+import ContactMe from '../ContactMe/ContactMe';
 export const togglarStatus = createContext();
 
 const Home = () => {
@@ -26,7 +27,8 @@ const Home = () => {
                 <div id="togglarActiveMargin" className="header-bottom-components">
                     <Projects></Projects>
                     <AboutMe></AboutMe>
-                    <Skills></Skills>
+                    <Blog></Blog>
+                    <ContactMe></ContactMe>
                 </div>
             </div>
         </togglarStatus.Provider>

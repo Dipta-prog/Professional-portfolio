@@ -1,0 +1,20 @@
+.about-contactMe-header{
+    text-align: center;
+    padding: 20px 0 5px 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}
+
+@media (min-width: 768px) {
+    .about-contactMe-header{
+        margin: 450px 0 0 0;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .about-contactMe-header{
+        margin: 230px 0 0 0;
+    }
+
+}

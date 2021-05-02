@@ -7,6 +7,19 @@ import Typical from 'react-typical';
 import Banner from '../Banner/Banner';
 
 const AboutMe = () => {
+    const handleClick = () => {
+        document.getElementById('services').scrollIntoView();
+    }
+
+    function download(url) {
+        const a = document.createElement('a')
+        a.href = url
+        a.download = url.split('/').pop()
+        document.body.appendChild(a)
+        a.click()
+        document.body.removeChild(a)
+    }
+
     return (
         <div className="container">
             <h2 id="about-me-title">About me</h2>
@@ -26,9 +39,13 @@ const AboutMe = () => {
                                     ]}
                                 ></Typical>
                             </span></div>
-                            <p className="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
+                            <p className="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. <br/> <br/> Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
                             {/* <a href="#">Hire me</a> */}
-                            <Link className="btn btn-success">DOWNLOAD RESUME</Link>
+                            {/* <Link onClick={()=>{downloadFile("https://drive.google.com/file/d/1yraIk8j8VFBJ4ftIjWIwLdQAlAMkJSId/view?usp=sharing", filename)}} className="btn btn-success">DOWNLOAD RESUME</Link> */}
+
+                            {/* <a target="_blank" href="https://drive.google.com/file/d/1yraIk8j8VFBJ4ftIjWIwLdQAlAMkJSId/view?usp=sharing" className="btn btn-success">DOWNLOAD RESUME</a> */}
+
+                            <Link onClick={handleClick} className="btn btn-success">HIRE ME</Link>
                         </div>
                     </div>
                 </div>

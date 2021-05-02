@@ -1,0 +1,248 @@
+#about-projects-title {
+    text-align: center;
+    padding-bottom: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+/* Prevent image stretching is it's resized */
+.card-img-top {
+    object-fit: cover;
+}
+
+/* Make all cards in row the same height */
+.projects-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects-row>div[class*='col-'] {
+    display: flex;
+}
+
+/* Hover effects */
+.card {
+    transition: -webkit-transform 0.3s ease;
+}
+
+.card-projects:hover { 
+    transition: 1s;
+    /* filter:blur(8px); */
+    transform: scale(1.02, 1.02);
+}
+
+.card-projects:hover img{
+    transition: 0.3s ease-out;
+    /* transform: scale(1.03, 1.03); */
+    filter:blur(8px);
+}
+
+.project-links{
+    display: none;
+}
+
+@media (max-width: 320px) {
+    .card-projects:hover a{
+        display: block;
+        position:absolute;
+        z-index: 150;
+        text-decoration: none;
+        font-weight: 800;
+        /* margin: 150px 0 0 200px; */
+        /* text-align: center !important; */
+        left: 30%;
+        top: 5%;
+    }
+    .project-link-one{
+        /* margin: 0px 0 100px 0px; */
+    }
+    .project-link-two{
+        margin: 10px 0 0px 0px;
+    }
+    .project-link-three{
+        margin: 90px 0 0px 0px;
+    }
+
+}
+@media (max-width: 272px) {
+    .card-projects:hover a{
+        display: block;
+        position:absolute;
+        z-index: 150;
+        text-decoration: none;
+        font-weight: 800;
+        /* margin: 150px 0 0 200px; */
+        /* text-align: center !important; */
+        left: 30%;
+        top: 00%;
+    }
+    .project-link-one{
+        /* margin: 0px 0 100px 0px; */
+    }
+    .project-link-two{
+        margin: 10px 0 0px 0px;
+    }
+    .project-link-three{
+        margin: 90px 0 0px 0px;
+    }
+
+}
+
+@media (min-width: 320px) {
+    .card-projects:hover a{
+        display: block;
+        position:absolute;
+        z-index: 150;
+        text-decoration: none;
+        font-weight: 800;
+        /* margin: 150px 0 0 200px; */
+        /* text-align: center !important; */
+        left: 35%;
+        top: 10%;
+    }
+    .project-link-one{
+        /* margin: 0px 0 100px 0px; */
+    }
+    .project-link-two{
+        margin: 10px 0 0px 0px;
+    }
+    .project-link-three{
+        margin: 90px 0 0px 0px;
+    }
+
+}
+
+
+
+@media (min-width: 420px) {
+    .card-projects:hover a{
+        display: block;
+        position:absolute;
+        z-index: 150;
+        text-decoration: none;
+        font-weight: 800;
+        /* margin: 150px 0 0 200px; */
+        /* text-align: center !important; */
+        left: 40%;
+        top: 10%;
+    }
+    .project-link-one{
+        /* margin: 0px 0 100px 0px; */
+    }
+    .project-link-two{
+        margin: 10px 0 0px 0px;
+    }
+    .project-link-three{
+        margin: 90px 0 0px 0px;
+    }
+
+}
+
+@media (min-width: 576px) {
+    .card-projects:hover a{
+        display: block;
+        position:absolute;
+        z-index: 150;
+        text-decoration: none;
+        font-weight: 800;
+        /* margin: 150px 0 0 200px; */
+        /* text-align: center !important; */
+        left: 40%;
+        top: 20%;
+    }
+    .project-link-one{
+        /* margin: 0px 0 100px 0px; */
+    }
+    .project-link-two{
+        margin: 10px 0 0px 0px;
+    }
+    .project-link-three{
+        margin: 90px 0 0px 0px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .card-projects:hover a{
+        display: block;
+        position:absolute;
+        z-index: 150;
+        text-decoration: none;
+        font-weight: 800;
+        /* margin: 150px 0 0 200px; */
+        /* text-align: center !important; */
+        left: 35%;
+        top: 10%;
+    }
+    .project-link-one{
+        /* margin: 0px 0 100px 0px; */
+    }
+    .project-link-two{
+        margin: 10px 0 0px 0px;
+    }
+    .project-link-three{
+        margin: 90px 0 0px 0px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .card-projects:hover a{
+        display: block;
+        position:absolute;
+        z-index: 150;
+        text-decoration: none;
+        font-weight: 800;
+        /* margin: 150px 0 0 200px; */
+        /* text-align: center !important; */
+        left: 40%;
+        top: 20%;
+    }
+    .project-link-one{
+        /* margin: 0px 0 100px 0px; */
+    }
+    .projectlink-two{
+        margin: 10px 0 0px 0px;
+    }
+    .project-link-three{
+        margin: 90px 0 0px 0px;
+    }
+
+}
+/* .card-projects:hover a{
+    display: block;
+    position:absolute;
+    z-index: 150;
+    text-decoration: none;
+    font-weight: 800;
+
+    left: 40%;
+    top: 40%;
+} */
+
+/* Responsive design for image heights */
+@media (min-width: 576px) {
+    .card-img-top {
+        height: 50vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-img-top {
+        height: 30vw;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-img-top {
+        height: 20vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-img-top {
+        height: 20vw;
+    }
+}
