@@ -33,7 +33,7 @@
 }
 
 .home-content .text-3 span {
-    background: -webkit-linear-gradient(225deg, #766dff, #88f3ff);
+    background: -webkit-linear-gradient(225deg, #766dff, #766dff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 500;
@@ -41,10 +41,10 @@
 
 .bg {
     /* height:1100px;
-    background-image: linear-gradient(90deg, #766dff 0%, #88f3ff 100%); */
+    background-image: linear-gradient(90deg, #766dff 0%, #766dff 100%); */
     /* position: relative;
     z-index: 2; */
-    /* background-image: linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    /* background-image: linear-gradient(0deg, #766dff 0%, #766dff 100%);
     margin-bottom: 200px; */
 }
 
@@ -54,30 +54,98 @@
 
 }
 
-@media (min-width: 767px) {
+/* @media (min-width: 767px) {
     .div-height {
-        height: 1100px;
+        height: 1150px;
+    }
+
+} */
+
+/* @media (max-width: 423px) {
+
+    .home-content .text-1 {
+        font-size: 20px;
+    }
+    
+    .home-content .text-2 {
+        font-size: 10px;
+        font-weight: 600;
+        margin-left: -3px;
+    }
+    
+    .home-content .text-3 {
+        font-size: 30px;
+        margin: 5px 0;
+    }
+    
+} */
+
+@media (max-width: 506px) {
+
+    .home-content .text-1 {
+        font-size: 18px;
+    }
+    
+    .home-content .text-2 {
+        font-size: 35px;
+        font-weight: 600;
+        margin-left: -3px;
+    }
+    
+    .home-content .text-3 {
+        font-size: 27px;
+        margin: 5px 0;
+    }
+    
+}
+
+@media (min-width: 576px) {
+    .div-height {
+        height: 1075px;
     }
 
 }
 
 @media (min-width: 768px) {
     .div-height {
-        height: 560px;
+        height: 710px;
+    }
+    /*  */
+    .my-img {
+        height: 400px;
     }
 
 }
 
 @media (min-width: 992px) {
     .div-height {
-        height: 760px;
+        height: 700px;
     }
 
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
     .div-height {
-        height: 900px;
+        height: 700px;
     }
 
+} */
+
+.text-button{
+    display: inline-block;
+    background: #766dff;
+    color: #88f3ff;
+    /* font-size: 25px; */
+    padding: 5px 20px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid #766dff;
+    transition: all 0.3s ease;
+}
+
+.text-button:hover{
+    color: #766dff;
+    background: none;
+    text-decoration: none;
 }

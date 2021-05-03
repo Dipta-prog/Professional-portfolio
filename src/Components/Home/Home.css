@@ -1,8 +1,19 @@
+/* @media (max-width: 575px) {
+    .header-bottom-components {
+        margin-top: 0px;
+        position: relative;
+        z-index: 100;
+    }
+} */
+
 @media (min-width: 576px) {
     .header-bottom-components {
         margin-top: 140px;
         position: relative;
         z-index: 100;
+    }
+    .togglarActiveMarginClass {
+        margin-top: 320px;
     }
 }
 
@@ -12,24 +23,28 @@
         position: relative;
         z-index: 100;
     }
+    .togglarActiveMarginClass {
+        margin-top: 320px;
+    }
 }
 
 @media (min-width: 992px) {
     .header-bottom-components {
-        margin-top: 220px;
+        margin-top: 160px;
         position: relative;
         z-index: 100;
     }
+
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
     .header-bottom-components {
-        margin-top: 260px;
+        margin-top: 160px;
         position: relative;
         z-index: 100;
     }
-}
+} */
 
-.togglarActiveMarginClass {
-    margin-top: 320px;
+.parent-div{
+    background-color: black;
 }

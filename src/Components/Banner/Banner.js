@@ -4,6 +4,7 @@ import {
     Link
 } from "react-router-dom";
 import Typical from 'react-typical';
+import myImg from '../../Project Image/me.JPG'
 
 
 const Banner = () => {
@@ -18,7 +19,7 @@ const Banner = () => {
                         <div className="row container-fluid">
                             <div className="col-md-6">
                                 {/* <p>part-1</p> */}
-                                <img className="my-img" src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" />
+                                <img className="my-img" src={myImg} alt="" />
                             </div>
                             <div className="col-md-6 info">
                                 <div className="home-content">
@@ -37,8 +38,8 @@ const Banner = () => {
                                         ></Typical>
                                     </span></div>
                                     {/* <a href="#">Hire me</a> */}
-                                    <a target="_blank" href="https://drive.google.com/file/d/1yraIk8j8VFBJ4ftIjWIwLdQAlAMkJSId/view?usp=sharing" className="btn btn-success">DOWNLOAD RESUME</a>
-                                    {/* <Link onClick={handleClick} className="btn btn-success">HIRE ME</Link> */}
+                                    <a target="_blank" href="https://drive.google.com/file/d/1yraIk8j8VFBJ4ftIjWIwLdQAlAMkJSId/view?usp=sharing" className="text-button">DOWNLOAD RESUME</a>
+                                    {/* <Link onClick={handleClick} className="text-button">DOWNLOAD RESUME</Link> */}
                                 </div>
                             </div>
                         </div>

@@ -22,7 +22,7 @@ const Home = () => {
     }
     return (
         <togglarStatus.Provider value={[isTogglarActive, setIsTogglarActive]}>
-            <div>
+            <div className="parent-div">
                 <Header></Header>
                 <div id="togglarActiveMargin" className="header-bottom-components">
                     <Projects></Projects>

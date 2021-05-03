@@ -3,18 +3,49 @@
     padding: 20px 0 5px 0;
     font-family: 'Ubuntu', sans-serif;
     font-size: 40px;
+    color: #766dff;
 }
 
+.contact-form-icons{
+    font-size: 1.5em;
+    padding-top: 5.5px;
+}
+
+.name-div{
+    padding-left: 26px;
+}
+
+.address-div{
+    padding-left: 30px;
+}
+
+.email-div{
+    padding-left: 24px;
+}
+
+.name-div p{
+    margin-bottom: 0px;
+}
+
+.address-div p{
+    margin-bottom: 0px;
+}
+
+.email-div p{
+    margin-bottom: 0px;
+}
+
+
 @media (min-width: 768px) {
-    .about-contactMe-header{
+    /* .about-contactMe-header{
         margin: 450px 0 0 0;
-    }
+    } */
 
 }
 
 @media (min-width: 1200px) {
-    .about-contactMe-header{
+    /* .about-contactMe-header{
         margin: 230px 0 0 0;
-    }
+    } */
 
 }

@@ -9,7 +9,7 @@
 
 @media (min-width: 576px) {
   .bg {
-    height:1000px;
+    height:930px;
     background-image: linear-gradient(90deg, #766dff 0%, #88f3ff 100%);
     /* position: relative;
     z-index: -1; */
@@ -22,19 +22,16 @@
 
 @media (min-width: 767px) {
   .bg {
-    height:1000px;
-    background-image: linear-gradient(90deg, #766dff 0%, #88f3ff 100%);
-    /* position: relative;
-    z-index: -1; */
-    /* background-image: linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-    margin-bottom: 200px; */
+    /* height:1000px;
+    background-image: linear-gradient(90deg, #766dff 0%, #88f3ff 100%); */
+    
   }
 
 }
 
 @media (min-width: 768px) {
   .bg {
-    height: 450px;
+    height: 563px;
     background-image: linear-gradient(90deg, #766dff 0%, #88f3ff 100%);
     /* position: relative;
     z-index: -1; */
@@ -46,7 +43,7 @@
 
 @media (min-width: 992px) {
   .bg {
-    height: 600px;
+    height: 550px;
     background-image: linear-gradient(90deg, #766dff 0%, #88f3ff 100%);
     /* position: relative;
     z-index: -1; */
@@ -58,7 +55,7 @@
 
 @media (min-width: 1200px) {
   .bg {
-    height: 700px;
+    height: 550px;
     background-image: linear-gradient(90deg, #766dff 0%, #88f3ff 100%);
     /* position: relative;
     z-index: -1; */

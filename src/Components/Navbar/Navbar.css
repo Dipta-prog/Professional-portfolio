@@ -35,24 +35,46 @@
     /* background: -webkit-linear-gradient(45deg, #766dff, #88f3ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
-    color: black !important;
+    color: white !important;
 }
 
-.nav-link-color{
-    color: black !important;
+.nav-link-color {
+    color: white !important;
 }
 
+/* .navbar-toggler-icon{
+    color: white !important;
+} */
 
-@media (min-width: 576px) {
+
+
+/* @media (min-width: 576px) {
     .navbar-brand {
-        /* background: -webkit-linear-gradient(45deg, #766dff, #88f3ff);
+        background: -webkit-linear-gradient(45deg, #766dff, #88f3ff);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent; */
+        -webkit-text-fill-color: transparent;
         color: white !important;
     }
-    .nav-link-color{
-        color: white !important;
-    }
-  
-  }
 
+    .nav-link-color {
+        color: white !important;
+    }
+
+} */
+
+/* Navbar custom toggler */
+.navbar-toggler {
+    width: 47px;
+    height: 34px;
+    margin-top: 6px;
+    background-color: none;
+    border: none;
+}
+
+.navbar-toggler .line {
+    width: 100%;
+    float: left;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 5px;
+}
